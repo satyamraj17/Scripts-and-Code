@@ -12,6 +12,8 @@ if Number[0] == '0':
     Number = Number[1] + Number[0] + Number[2:]
 i = 1
 trials = int(input("Enter the number of trials: "))
+if trials == 1:
+    print("All the best with your confidence!")
 while i <= trials:
     Guess = input(f"Guess {i}: ")
     if len(Guess) != len(Number):
