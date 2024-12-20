@@ -24,9 +24,4 @@ WORDLIST="$2"
 URL="$3"
 FS="$4"
 
-echo "$DOMAIN"
-echo "$WORDLIST"
-echo "$URL"
-echo "$FS"
-
 ffuf -H "Host: FUZZ.$DOMAIN" -c -w $WORDLIST -u $URL -fs $FS
