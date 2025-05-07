@@ -14,4 +14,4 @@ And so on...
 
 Some of the letters are mapped differently to avoid overlapping with the other letters-- for example, the standard cipher for 'L' would otherwise match the beginning of the cipher for 'E' and 'U'.
 
-Currently, this encoder-decoder doesn't take punctuation marks and symbols into consideration. Using them will throw an error.
+**Currently, this encoder-decoder doesn't take punctuation marks and symbols into consideration. Using them will throw an error.**
